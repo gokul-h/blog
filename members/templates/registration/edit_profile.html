@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<br><br>
+<h1>Feature Coming soon...</h1>
+{% else %}
+<br><br>
+<h1>You are not authorised To access This Page!!!</h1>
+<h1>Try Logging in...</h1>
+{% endif %}
+
+{% endblock %}
